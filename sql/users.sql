@@ -24,8 +24,8 @@ CREATE TABLE `users` (
 -- Contenu de la table `users`
 --
 
-INSERT INTO `users` (`id`, `username`, `password`) VALUES
-(1, 'Marcel', '44592b4eea36663c86b994bb0ea99d15309c1c7d');
+INSERT INTO `users` (`username`, `password`) VALUES
+('marcel', '44592b4eea36663c86b994bb0ea99d15309c1c7d');
 
 --
 -- Index pour les tables exportées
