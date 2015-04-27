@@ -10,19 +10,19 @@ class DbAuth {
 
     private $_db;
 
-
+    //on construit l'objet avec une connexion à la base de donnée.
     public function __construct(){
         $this->setDb();
     }
 
-
+    //création d'une connexion à la base de données.
     public function setDb(){
         $connect = new Base();
         $this->_db = $connect->db();
     }
 
     /**
-     * Cette fonction permet de vérifier en base la corespondance
+     * Cette fonction permet de vérifier en base la correspondance
      * d'un mot de passe pour un utilisateur donné.
      * Elle retourne false si pas de correspondance.
      * Si correspondance, création d'une variable de session et retourne true.

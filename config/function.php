@@ -1,5 +1,7 @@
 <?php
 
+/*maj de la function. On ajoute ici le dossier authentification aux dossiers
+vérifiés pour l'include des classes*/
 function chargerClasse($classe)
 {
 	$classFile = "controller/$classe.php";

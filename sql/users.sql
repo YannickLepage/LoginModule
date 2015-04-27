@@ -1,11 +1,5 @@
--- phpMyAdmin SQL Dump
--- version 4.3.12
--- http://www.phpmyadmin.net
---
--- Client :  localhost:8889
--- Généré le :  Lun 27 Avril 2015 à 15:47
--- Version du serveur :  5.5.38
--- Version de PHP :  5.6.2
+-- Fichier sql à ajouter à la base de données afin d'ajouter la table users.
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";

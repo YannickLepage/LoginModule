@@ -1,7 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
 
 //session
 session_start();
@@ -13,18 +10,17 @@ include "config/function.php";
 //Autochargement des Classes
 spl_autoload_register('chargerClasse');
 
+/*si des données ont été postés, on teste la connexion. Si ok on renvoie vers
+l'admin sinon on affiche une erreur*/
 if(!empty($_POST)){
     $auth = new DbAuth();
     if($auth->login($_POST['username'], $_POST['password'])){
         header('location:admin.php');
     }else{
-
         $idFalse ='<div class="alert alert-danger">Identifiants incorrects</div>';
     }
 }
 ?>
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -56,20 +52,20 @@ if(!empty($_POST)){
             </ul>
         </div>
     </nav>
-
     <div class="row">
         <div class="col-md-4 col-md-offset-4 text-center">
             <h1><a id="login" href="#">Se connecter</a></h1>
         </div>
     </div>
     <br>
+    <?php if(isset($idFalse)) echo $idFalse; ?>
     <form action="#" method="post" id="form" class="form-group" style="display:none">
         <div class="row">
             <div class="col-md-4 col-md-offset-4 text-center">
                 <input class="form-control" type="text" placeholder="Username" name="username">
             </div>
         </div>
-        <br/>
+        <br>
         <div class="row">
             <div class="col-md-4 col-md-offset-4 text-center">
                 <input  class="form-control"type="password" placeholder="Password" name="password">
@@ -82,9 +78,8 @@ if(!empty($_POST)){
             </div>
         </div>
     </form>
-
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="ajax/login.js"></script>
     </body>
-    </html>
+</html>

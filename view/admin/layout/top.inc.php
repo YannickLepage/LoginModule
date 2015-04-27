@@ -29,7 +29,7 @@
 				<li><a href="../../../admin.php?admin=ajout">
 					<i class="glyphicon glyphicon-plus"></i> Ajouter une page
 				</a></li>
-                <!-- modif pour prise en charge module de login -->
+                <!-- modif pour prise en charge module de login et du bouton déconnexion-->
                 <li><a href="../../../ajax/deconnexion.php">
                         <i class="glyphicon glyphicon-remove-sign"></i> Déconnexion
                     </a></li>
