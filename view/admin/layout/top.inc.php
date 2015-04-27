@@ -19,18 +19,18 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 		  	</button>
-      		<a class="navbar-brand" href="admin.php">My CMS _ Administration</a>
+      		<a class="navbar-brand" href="../../../admin.php">My CMS _ Administration</a>
 		</div>
 		<div class="collapse navbar-collapse" id="admin-menu">
 			<ul class="nav navbar-nav">
-				<li><a href="admin.php?admin=liste">
+				<li><a href="../../../admin.php?admin=liste">
 					<i class="glyphicon glyphicon-th-list"></i> Liste des pages
 				</a></li>
-				<li><a href="admin.php?admin=ajout">
+				<li><a href="../../../admin.php?admin=ajout">
 					<i class="glyphicon glyphicon-plus"></i> Ajouter une page
 				</a></li>
                 <!-- modif pour prise en charge module de login -->
-                <li><a href="ajax/deconnexion.php">
+                <li><a href="../../../ajax/deconnexion.php">
                         <i class="glyphicon glyphicon-remove-sign"></i> Déconnexion
                     </a></li>
                 <!--fin modif -->
