@@ -1,34 +1,61 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
     <title>LoginModule by YannickLepage</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
+
   <body>
-    <section class="page-header">
-      <h1 class="project-name">LoginModule</h1>
-      <h2 class="project-tagline">This is a login module for the mini cms  you can find here : https://github.com/DL02/mycms</h2>
-      <a href="https://github.com/YannickLepage/LoginModule" class="btn">View on GitHub</a>
-      <a href="https://github.com/YannickLepage/LoginModule/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/YannickLepage/LoginModule/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <a id="forkme_banner" href="https://github.com/YannickLepage/LoginModule">View on GitHub</a>
+    <div class="shell">
 
-    <section class="main-content">
-      <h1>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>LoginModule</h1>
+            <h2>This is a login module for the mini cms  you can find here : https://github.com/DL02/mycms</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/YannickLepage/LoginModule/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/YannickLepage/LoginModule/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
 <a id="loginmodule" class="anchor" href="#loginmodule" aria-hidden="true"><span class="octicon octicon-link"></span></a>LoginModule</h1>
-
-<p>This is a login module for the mini cms  you can find here : <a href="https://github.com/DL02/mycms">https://github.com/DL02/mycms</a></p>
 
 <h2>
 <a id="important" class="anchor" href="#important" aria-hidden="true"><span class="octicon octicon-link"></span></a>Important</h2>
 
 <p>Please read <strong>entirely</strong> this readme and follow <strong>carefully</strong> the setting steps to be sure
 everything works fine for you. </p>
+
+<hr>
 
 <h2>
 <a id="about-this-module" class="anchor" href="#about-this-module" aria-hidden="true"><span class="octicon octicon-link"></span></a>About this module</h2>
@@ -39,6 +66,8 @@ This module is dedicated exclusively to secure login to the administration part 
 the site. Authorized users must be added directly into the database.
 In this module I kind of break the mvc model of the website to avoid modifying too much file
 from the cms and to simplify installation.</p>
+
+<hr>
 
 <h3>
 <a id="setting-steps-" class="anchor" href="#setting-steps-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setting Steps :</h3>
@@ -74,6 +103,8 @@ in your database.<br>
 </li>
 </ol>
 
+<hr>
+
 <h2>
 <a id="warning" class="anchor" href="#warning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Warning</h2>
 
@@ -93,20 +124,28 @@ this:</p>
 </li>
 </ol>
 
+<hr>
+
 <h2>
 <a id="ressources" class="anchor" href="#ressources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ressources</h2>
 
 <p>To create this module I got help from this website : <a href="http://www.grafikart.fr/">http://www.grafikart.fr/</a></p>
+      </section>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/YannickLepage/LoginModule">LoginModule</a> is maintained by <a href="https://github.com/YannickLepage">YannickLepage</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/YannickLepage">YannickLepage</a> can be found on <a href="https://github.com/YannickLepage/LoginModule">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
 
-    </section>
+    </div>
 
-  
+    
   </body>
 </html>
-
