@@ -37,10 +37,11 @@ in your database.
 When you get this module it comes with the test user. *Before using this module for your website* 
 be sur to *delete the test user* and add a personal authorized one in your database rescpecting
 this:
+
 1. Add a new user 
 2. Choose a username.
 3. Choose a password and choose *sha1* encryption before validating.
-    *if you forget this, _the module won't work_ as it's _designed for sha1 encryption_
+    * if you forget this, _the module won't work_ as it's _designed for sha1 encryption_
     
 ##Ressources
 To create this module i got help from this website : http://www.grafikart.fr/
