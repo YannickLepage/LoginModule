@@ -10,7 +10,7 @@ You'll find here, the .php and .js files to add or to replace in the original _m
 and  a .sql file for your database.
 This module is dedicated exclusively to secure login to the administration part of 
 the site. Authorized users must be added directly into the database.
-In this module i kind of break the mvc model of the website to avoid modifying too much file
+In this module I kind of break the mvc model of the website to avoid modifying too much file
 from the cms and to simplify installation.
 
 
@@ -44,5 +44,5 @@ this:
     * if you forget this, _the module won't work_ as it's _designed for sha1 encryption only_
     
 ##Ressources
-To create this module i got help from this website : http://www.grafikart.fr/
+To create this module I got help from this website : http://www.grafikart.fr/
 
