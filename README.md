@@ -20,8 +20,8 @@ from the cms and to simplify installation.
 3. Clone or download all the file from this _login module_
 4. Add to the cms root the directory called authentification with DbAuth.php file.
 5. Merge my ajax directory with yours *or* add to the ajax directory the files:
-* deconnexion.php 
-* login.js
+    * deconnexion.php 
+    * login.js
 6. Merge my config directory with yours *or* replace the function.php file from your 
 cms by mine
 7. Merge the view directory *or* replace your top.inc.php file situated in view-admin-
@@ -30,8 +30,8 @@ layout by mine
 9. In php my admin or any software you use for your database, import the users.sql file 
 in your database.  
 10. You can now test the login on the site with the test user:
-* username: marcel
-* password: marcel
+    * username: marcel
+    * password: marcel
 
 ##Warning
 When you get this module it comes with the test user. *Before using this module for your website* 
