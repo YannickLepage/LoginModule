@@ -12,6 +12,7 @@ This module is dedicated exclusively to secure login to the administration part 
 the site. Authorized users must be added directly into the database.
 In this module I kind of break the mvc model of the website to avoid modifying too much file
 from the cms and to simplify installation.
+It also add a deconnexion link to the admin.php page so you can disconnect and come back to login page.
 
 
 ### Setting Steps :
